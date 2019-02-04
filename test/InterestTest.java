@@ -41,6 +41,7 @@ class InterestTest {
 
     @Test
     void testForFivePercentInterestRate(){
+
         assertEquals(33.9,main.calculateYearlyInterest(accTwo));
     }
 
@@ -55,11 +56,13 @@ class InterestTest {
 
     @Test
     void testForZeroBalance(){
+
         assertEquals(0,main.calculateYearlyInterest(accFour));
     }
 
     @Test
     void testForNegativeBalance(){
+
         assertEquals(0,main.calculateYearlyInterest(accFive));
     }
 
@@ -94,10 +97,27 @@ class InterestTest {
     void testLambdaPrintOut(){
 
         String message = "The Test Message!";
-        
+
+        assertAll("Running Lambda...", () -> {
+            System.out.println(message);
+            assertEquals(message, "The Test Message!");
+        });
 
 
+    }
 
+    @Test
+    void testAssertAll(){
+        main.calculateYearlyInterest(accSix);
+
+        assertAll("Should test the bank rates",
+                () -> assertEquals(2.25,main.calculateYearlyInterest(accOne)),
+                () -> assertEquals(33.9,main.calculateYearlyInterest(accTwo)),
+                () -> assertEquals(106.75,main.calculateYearlyInterest(accThree)),
+                () -> assertEquals(0,main.calculateYearlyInterest(accFour)),
+                () -> assertEquals(0,main.calculateYearlyInterest(accFive)),
+                () -> assertEquals(accOne.getAccInterestRate(), accSix.getAccInterestRate()),
+                () -> assertNotEquals(accOne.getAccInterestRate(), accTwo.getAccInterestRate()));
     }
 
 
