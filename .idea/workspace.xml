@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="435c268f-3fec-4e12-813b-839d7f706313" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/InterestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/InterestTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,8 +26,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/InterestTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="45" column="58" selection-start-line="45" selection-start-column="58" selection-end-line="45" selection-end-column="58" />
+            <state relative-caret-position="260">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -241,7 +239,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.InterestTest">
+  <component name="RunManager" selected="JUnit.InterestTest.testLambdaPrintOut">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="UnitTestingAssignment" />
@@ -287,11 +285,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.InterestTest.testLambdaPrintOut" />
         <item itemvalue="JUnit.InterestTest" />
         <item itemvalue="JUnit.InterestTest.testRandomBoolean" />
         <item itemvalue="Application.TestLauncher" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.InterestTest.testLambdaPrintOut" />
       </list>
     </recent_temporary>
   </component>
@@ -312,14 +310,11 @@
       <workItem from="1549394115099" duration="339000" />
       <workItem from="1550086821354" duration="2806000" />
       <workItem from="1550416947768" duration="3503000" />
-      <workItem from="1560628660826" duration="597000" />
+      <workItem from="1560628660826" duration="1057000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="InterestTest_testLambdaPrintOut - 2019.02.05 at 00h 32m 08s.xml">
-      <configuration name="InterestTest.testLambdaPrintOut" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="InterestTest_testLambdaPrintOut - 2019.02.05 at 08h 34m 12s.xml">
       <configuration name="InterestTest.testLambdaPrintOut" configurationId="JUnit" />
     </history-entry>
@@ -347,9 +342,12 @@
     <history-entry file="InterestTest - 2019.06.15 at 22h 06m 50s.xml">
       <configuration name="InterestTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="InterestTest_testLambdaPrintOut - 2019.06.15 at 22h 09m 11s.xml">
+      <configuration name="InterestTest.testLambdaPrintOut" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19572000" />
+    <option name="totallyTimeSpent" value="20032000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -365,7 +363,7 @@
       <window_info anchor="bottom" id="FindBugs-IDEA" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43336946" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.43336946" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39931154" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -373,7 +371,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32874355" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32719395" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32719395" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32719395" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -475,8 +473,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/InterestTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="45" column="58" selection-start-line="45" selection-start-column="58" selection-end-line="45" selection-end-column="58" />
+        <state relative-caret-position="260">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

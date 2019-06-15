@@ -105,6 +105,7 @@ class InterestTest {
     }
 
     //Lambda Test
+    @DisplayName("Lambda Test")
     @Test
     void testLambdaPrintOut(){
 
