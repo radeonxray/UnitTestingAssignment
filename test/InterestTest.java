@@ -1,6 +1,4 @@
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 
 import java.time.Duration;
 import java.util.concurrent.TimeUnit;
@@ -13,6 +11,10 @@ class InterestTest {
     Account accOne,accTwo,accThree,accFour, accFive, accSix;
     boolean up = true;
 
+    public static boolean getRandomBoolean() {
+        return Math.random() < 0.5;
+        //I tried another approaches here, still the same result
+    }
 
 
     @BeforeEach
@@ -81,6 +83,16 @@ class InterestTest {
         assertNotEquals(accOne.getAccInterestRate(), accTwo.getAccInterestRate());
     }
 
+    @DisplayName("Random Boolean Test")
+    @Test
+    void testRandomBoolean(){
+
+        assertEquals(true, getRandomBoolean());
+    }
+
+    //Timeout Test
+    @DisplayName("Sleep Test")
+    @Disabled
     @Test
     void testAccountCreated() {
 
@@ -92,6 +104,7 @@ class InterestTest {
 
     }
 
+    //Lambda Test
     @Test
     void testLambdaPrintOut(){
 
@@ -105,6 +118,8 @@ class InterestTest {
 
     }
 
+    //Assert all Test with Lambda
+    @DisplayName("AssertAllTest")
     @Test
     void testAssertAll(){
         main.calculateYearlyInterest(accSix);
